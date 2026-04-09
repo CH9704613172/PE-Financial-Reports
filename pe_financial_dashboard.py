@@ -419,7 +419,8 @@ elif "Portfolio" in page:
         textfont_size=12
     )
     fig_tree.update_layout(**CHART_LAYOUT, height=420, coloraxis_colorbar=dict(
-        title="Return %", tickfont=dict(color="#b0c8e0"), titlefont=dict(color="#b0c8e0")))
+        title=dict(text="Return %", font=dict(color="#b0c8e0")),
+        tickfont=dict(color="#b0c8e0")))
     st.plotly_chart(fig_tree, use_container_width=True)
 
     # Bar chart: cost vs FV
