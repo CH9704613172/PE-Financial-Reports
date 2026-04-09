@@ -732,7 +732,7 @@ elif "Partners" in page:
                  })
 
     st.markdown("""
-    <div class="insight-box">💡 <strong>Plain-English Summary:</strong> The fund returned <strong>18.6% per year</strong> since inception for Limited Partners — well above typical stock market returns. For every $100 invested, LPs paid $2.50/year in fees and earned roughly $18.60/year in annualized returns. The GP's carried interest of $8.1M is only earned because the fund is performing well (above the 8% hurdle rate).</div>
+    <div class="insight-box">💡 <strong> Summary:</strong> The fund returned <strong>18.6% per year</strong> since inception for Limited Partners — well above typical stock market returns. For every $100 invested, LPs paid $2.50/year in fees and earned roughly $18.60/year in annualized returns. The GP's carried interest of $8.1M is only earned because the fund is performing well (above the 8% hurdle rate).</div>
     """, unsafe_allow_html=True)
 
 # Footer
